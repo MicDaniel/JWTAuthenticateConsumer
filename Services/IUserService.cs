@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace JWTAuthenticateConsumer.Services
 {
-    public class IUserService
+    public interface IUserService
     {
     }
 }
