@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2u9Fi9ouL+q5vheXfaU3RYJPO7C2G2jx/gls075mglQK3kLGd5BpM9c9eznufYLZVTOt2xXG3zfYpovFy1wD7w==",
+  "success": true,
+  "projectFilePath": "D:\\ASP.NET Core\\API dev\\Microservices\\JWTAuthenticateConsumer\\JWTAuthenticateConsumer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danie\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.8\\microsoft.visualstudio.azure.containers.tools.targets.1.10.8.nupkg.sha512"
+  ],
+  "logs": []
+}
