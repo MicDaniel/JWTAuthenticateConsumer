@@ -41,10 +41,12 @@ namespace JWTAuthenticateConsumer.Controllers
             if(identity != null)
             {
                 IEnumerable<Claim> claims = identity.Claims;
-                var id = claims.Where(p => p.Type == "Id").FirstOrDefault()?.Value;
+                var id = claims.Where(p => p.Type == ClaimTypes.NameIdentifier).FirstOrDefault()?.Value;
+                var name = claims.Where(p => p.Type == ClaimTypes.Name).FirstOrDefault()?.Value;
                 return new
                 {
-                    data = id
+                    userId = id,
+                    username = name
                 };
             }
 
